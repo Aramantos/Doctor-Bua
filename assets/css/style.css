@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
+
+/*-------------------------Body */
+
+.background {
+    background: url('/assets/images/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
+}
+
+.eyebrows {
+    : url('/assets/images/eyebrows.png') no-repeat center center fixed;
+
+}
+
+ a{
+     color: #000000;
+ }
+
+/*-------------------------Typewriter */ 
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+
+.ptext{
+  position: absolute;
+  top: 30%;
+  left: 80px;
+}
+.showcase h1{
+  font-size:65px;
+  color: #fff;
+  font-family: "Tempus Sans ITC";
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.showcase h2{
+  font-size: 40px;
+  text-transform: capitalize;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid black;
+  width: 30ch;
+  color:black;
+  font-family: consolas;
+  animation: typist 60s steps(60) infinite, blink step-end 1s infinite;
+}
+@keyframes typist{
+  0%{width: 0ch;}
+  47%{width: 34ch;}
+  70%{width: 34ch;}
+  75%{width: 0ch;}
+  100%{ width: 0ch;}
+}
+@keyframes blink{
+  from, to{border-color: transparent;}
+  50%{border-color: black;}
+}
+
+/*-------------------------Header */
+
+header{
+    font-family: "Grandstander" , sans-serif;
+    padding: 35px;
+    font-size: 220%;
+    
+}
+
+.menu{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    }
+
+.menu-items{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-size: 150%;
+    margin-left: 150px;
+    margin-right: 150px;
+    }
+
+.left{
+    float: left;
+    text-decoration: underline;
+    margin-left: 15px;
+}
+
+.right{
+    float: right;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.center{
+    text-align: center;
+}
+
+/*-------------------------Footer */
+/*-------------------------Colours */
+
